@@ -23,6 +23,7 @@ public class FizzBuzzTest {
         //when
         FizzBuzz fizzBuzz = new FizzBuzz();
         String result = fizzBuzz.convert(number);
+        // then
         assertEquals("fizz", result);
     }
 
